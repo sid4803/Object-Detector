@@ -13,7 +13,6 @@ function setup(){
  function modelLoaded(){
      console.log("modelLoaded");
      status=true;
-     objectdetector.detect(img,gotResult);
  }
 function gotResult(error,results){
     if(error){
